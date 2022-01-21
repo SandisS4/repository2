@@ -1,0 +1,26 @@
+.feed {
+    flex: auto;
+    border-right: 1px solid var(--Tcolor);
+    min-width: fit-content;
+    overflow-y: scroll;
+  }
+  
+  
+  /* Lai neredz scroolbaru*/
+  .feed::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .feed__header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(223, 215, 215);
+    z-index: 100;
+    border: 1px solid var(--Tcolor);
+    padding: auto;
+  }
+  
+  .feed__header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+  }
